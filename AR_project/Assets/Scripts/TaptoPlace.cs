@@ -62,7 +62,7 @@ public class TaptoPlace : MonoBehaviour
 
     private void SpawnPrefab(Pose hitP)
     {
-        spawnPoint1 = Instantiate(gameObject1, hitP.position, hitP.rotation * Quaternion.Euler(-90, 0, 0));
+        spawnPoint1 = Instantiate(gameObject1, hitP.position + new Vector3 (0,0.05f,0), hitP.rotation * Quaternion.Euler(-90, 0, 0));
         placedPrebabs.Add(spawnPoint1);
         placedPrefabCount++;
     }

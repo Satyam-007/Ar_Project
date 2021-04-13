@@ -784,7 +784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObject1: {fileID: 1010225363297840361, guid: a1cdc8c03aa717346aa5364193775f8c,
     type: 3}
-  maxPrefabs: 3
+  maxPrefabs: 10
 --- !u!114 &1467043182
 MonoBehaviour:
   m_ObjectHideFlags: 0

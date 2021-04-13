@@ -42,7 +42,7 @@ Transform:
   m_GameObject: {fileID: 2812606938445779495}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 346.97437, y: 288.5038, z: -853.9265}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 10, y: 10, z: 30}
   m_Children:
   - {fileID: 786796110237544645}
   m_Father: {fileID: 0}
@@ -252,10 +252,10 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 1
+  - 0
   m_Url: 
   m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
+  m_DirectAudioMutes: 01
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
@@ -269,11 +269,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2812606938445779492}
     m_Modifications:
-    - target: {fileID: 7605612989465046137, guid: d278fd80a7615f24dae725301ce791bd,
-        type: 3}
-      propertyPath: m_Name
-      value: sectionInfo 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7399995777606903779, guid: d278fd80a7615f24dae725301ce791bd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -333,6 +328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7605612989465046137, guid: d278fd80a7615f24dae725301ce791bd,
+        type: 3}
+      propertyPath: m_Name
+      value: sec2
       objectReference: {fileID: 0}
     - target: {fileID: 2208031472864037503, guid: d278fd80a7615f24dae725301ce791bd,
         type: 3}
