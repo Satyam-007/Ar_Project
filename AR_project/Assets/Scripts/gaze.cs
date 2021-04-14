@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEngine;
 
 
+
 public class gaze : MonoBehaviour
 {
     List<infoBehave> infos = new List<infoBehave>();
@@ -24,7 +25,7 @@ public class gaze : MonoBehaviour
             }
             else
             {
-                foreach (infoBehave info in infos)
+               foreach (infoBehave info in infos)
                 {
                     info.CloseInfo();
                 }
